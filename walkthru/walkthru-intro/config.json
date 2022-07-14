@@ -1,0 +1,26 @@
+{
+  "title": "What is WalkThru?",
+  "code": {
+    "owner": "walkthru",
+    "repo": "next",
+    "ref": "main"
+  },
+  "steps": [
+    "introduction",
+    "walkthru-tutorials",
+    "including-code",
+    "focusing-code",
+    "displaying-image",
+    "image-only",
+    "json-config",
+    "config-code",
+    "steps-config",
+    "displaying-app",
+    "loading-data",
+    "tutorial-slug",
+    "ghpat",
+    "get-data",
+    "component",
+    "finish"
+  ]
+}
