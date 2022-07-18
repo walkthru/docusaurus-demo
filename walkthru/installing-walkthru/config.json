@@ -1,0 +1,12 @@
+{
+  "title": "Installing WalkThru in Docusaurus",
+  "order": 2,
+  "code": {
+    "owner": "walkthru",
+    "repo": "docusaurus-demo",
+    "ref": "master"
+  },
+  "steps": [
+    "introduction"
+  ]
+}

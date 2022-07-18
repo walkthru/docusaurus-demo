@@ -55,6 +55,7 @@ const config = {
     [
       'docusaurus-preset-walkthru',
       {
+        path: 'guides',
         githubToken: process.env.GH_PAT
       }
     ]
@@ -83,15 +84,9 @@ const config = {
             position: 'right',
           },
           {
-            type: 'dropdown',
-            label: 'Guides',
+            to: '/guides/walkthru-intro',
             position: 'left',
-            items: [
-              {
-                label: 'WalkThru Intro',
-                to: '/walkthru-intro',
-              }
-            ],
+            label: 'Guides',
           },
         ],
       },
