@@ -1,20 +1,14 @@
 ---
 title: Introduction
-file: docusaurus.config.js
-focus: 4-5
-center: 4
+file: README.md
 ---
 
-Coding tutorials can be frustrating for both readers and authors.
+A great way to use WalkThru is to add it to your Docusaurus site as a preset. This easy to do with the `docusaurus-preset-walkthru` package.
 
-Common issues include:
+You can install it in a Docusaurus 2 site with NPM:
 
-- Hard to link code examples with explanation.
-- Code examples are either too long or too short.
-- Errors in code examples are hard to catch.
+```
+npm i -S docusaurus-preset-walkthru
+```
 
-**WalkThru** provides an easier and more accurate way of explaining code by utilizing interactive and dynamic aspects of the web.
-
-It's open source and can be embedded in any web page for technical tutorials, documentation, or teaching.
-
-Let's take a quick tour to find out how it works.
+Next, we'll go through the steps of configuring the preset.

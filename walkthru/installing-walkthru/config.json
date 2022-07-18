@@ -7,6 +7,10 @@
     "ref": "master"
   },
   "steps": [
-    "introduction"
+    "introduction",
+    "adding-preset",
+    "env-file",
+    "nav-link",
+    "footer-link"
   ]
 }
