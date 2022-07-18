@@ -100,6 +100,10 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'Guides',
+                to: "/guides/walkthru-intro"
+              }
             ],
           },
           {
