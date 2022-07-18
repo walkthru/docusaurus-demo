@@ -10,7 +10,9 @@
     "introduction",
     "adding-preset",
     "env-file",
+    "dotenv",
     "nav-link",
-    "footer-link"
+    "footer-link",
+    "order"
   ]
 }

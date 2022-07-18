@@ -5,11 +5,11 @@ focus: 55-61
 center: 58
 ---
 
-You can add presets to your Docusaurus via the config file.
+You can add the WalkThru preset to Docusaurus via the config file.
 
-To do this, add another array to the `preset` property. The first element of this array is the preset name i.e. `docusarus-preset-walkthru`.
+To do this, add another array to the `preset` property. 
 
-The second element of the array is the options object.
+The first element of this array is the preset name i.e. `docusarus-preset-walkthru`. The second element of the array is the options object.
 
 The two required options are:
 

@@ -1,6 +1,5 @@
 ---
 title: Introduction
-file: README.md
 ---
 
 A great way to use WalkThru is to add it to your Docusaurus site as a preset. This easy to do with the `docusaurus-preset-walkthru` package.
