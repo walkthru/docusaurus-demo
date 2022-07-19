@@ -18,6 +18,8 @@
     "@docusaurus/preset-classic": "^2.0.0-rc.1",
     "@emotion/react": "^11.9.3",
     "@mdx-js/react": "^1.6.22",
+    "@walkthru/data": "^0.2.0-beta.3",
+    "@walkthru/react": "^0.2.0-beta.3",
     "clsx": "^1.2.0",
     "docusaurus-preset-walkthru": "^0.2.0-beta.4",
     "dotenv": "^16.0.1",
