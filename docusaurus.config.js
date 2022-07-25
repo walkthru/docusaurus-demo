@@ -7,9 +7,9 @@ require('dotenv').config()
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'WalkThru',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://walkthru-docusaurus.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,10 +35,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +51,6 @@ const config = {
     [
       'docusaurus-preset-walkthru',
       {
-        path: 'guides',
         githubToken: process.env.GH_PAT
       }
     ]
@@ -64,8 +59,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: 'My Site',
+        title: 'WalkThru',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -73,20 +73,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
-          {
-            to: '/guides/walkthru-intro',
-            position: 'left',
-            label: 'Guides',
           },
         ],
       },
@@ -97,13 +92,9 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Introduction',
+                to: '/docs/introduction',
               },
-              {
-                label: 'Guides',
-                to: "/guides/walkthru-intro"
-              }
             ],
           },
           {
